@@ -191,6 +191,11 @@ jane_record = Record("Jane")
 jane_record.add_phone("9876543210")
 book.add_record(jane_record)
 
+# Створення та додавання нового запису для Jane
+janes_record = Record("Janes")
+janes_record.add_phone("9876543210")
+book.add_record(janes_record)
+
 # Створення та додавання нового запису для Tom
 tom_record = Record("Tom")
 tom_record.add_phone("1234657623")
