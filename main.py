@@ -98,11 +98,6 @@ class Record:
             if phone.value == phone_old:
                 phone.value = phone_new
 
-    def find_phone(self, phone_to_find):
-        for phone in self.phones:
-            if phone.value == phone_to_find:
-                return phone
-        return None
 
     def day_to_birthday(self):
         if self.birthday is not None:
