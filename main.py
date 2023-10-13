@@ -188,6 +188,11 @@ john_record = Record("John", "30.12.2005")
 john_record.add_phone("0234567890")
 john_record.add_phone("5555555555")
 
+# Створення запису для Mark
+john_record = Record("Mark", "01.01.1970")
+john_record.add_phone("1111111111")
+john_record.add_phone("2222222222")
+
 # Додавання запису John до адресної книги
 book.add_record(john_record)
 
