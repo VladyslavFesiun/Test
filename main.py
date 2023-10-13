@@ -164,6 +164,8 @@ class AddressBook(UserDict):
             if key == name:
                 return self.data.pop(name)
         return f"Contact name: {name} was not found in AddressBook"
+   
+
     
 class Notes():
     
@@ -174,6 +176,9 @@ class Notes():
 
 # Створення нової адресної книги
 book = AddressBook()
+
+new_name = Name('Yarko')
+print(new_name)
 
 notes_test = Notes()
 print(notes_test)
